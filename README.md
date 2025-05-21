@@ -62,6 +62,6 @@ El análisis mostró que:
 
 ## 🧑‍💻 Autor
 
-**[Tu nombre aquí]** – Proyecto de análisis de datos para portafolio  
+**Jonathan García** – Proyecto de análisis de datos para portafolio  
 Desarrollado como parte del proceso de formación para científico de datos.
 
