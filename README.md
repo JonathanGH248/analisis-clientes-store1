@@ -1,67 +1,131 @@
-# 🛒 Análisis de Clientes - Store 1
+# 🛒 Análisis de clientes y categorías de compra | Store 1
 
-Este proyecto realiza un análisis exploratorio de los datos de clientes de una tienda ficticia ("Store 1"), con el objetivo de identificar patrones de compra, segmentar por edad y categoría, y ofrecer recomendaciones comerciales basadas en los datos.
+Proyecto de análisis exploratorio de datos enfocado en identificar patrones de compra, categorías más rentables y diferencias de comportamiento entre segmentos de clientes.
+
+El análisis busca transformar datos de compras en información útil para apoyar decisiones comerciales, segmentación y oportunidades de marketing.
 
 ---
 
 ## 📌 Objetivo
 
-Explorar y estructurar los datos de clientes para:
+Explorar y estructurar los datos de clientes de una tienda ficticia para responder preguntas clave de negocio, como:
 
-- Identificar categorías con mayor y menor ingreso
-- Analizar la edad promedio de clientes por categoría
-- Calcular el total gastado por usuario
-- Evaluar oportunidades de marketing por segmento
-- Visualizar los resultados para facilitar decisiones estratégicas
+- ¿Qué categorías generan más ingresos?
+- ¿Qué segmentos de edad compran ciertos tipos de productos?
+- ¿Qué patrones de gasto pueden aprovecharse comercialmente?
+- ¿Qué oportunidades de segmentación y marketing pueden derivarse de los datos?
+
+---
+
+##  📋 Contexto analítico
+
+Las empresas de retail necesitan entender mejor el comportamiento de sus clientes para orientar promociones, ajustar estrategias comerciales y priorizar categorías con mayor valor.
+
+En este proyecto se analizaron registros de compra para identificar patrones relacionados con:
+
+- gasto total por cliente
+- categorías con mejor desempeño
+- frecuencia de compra
+- edad promedio por categoría
+- oportunidades de segmentación comercial
+
+---
+
+## 🗂️ Dataset
+
+Se trabajó con información de clientes y compras, incluyendo datos como:
+
+- nombre del cliente
+- edad
+- categorías de productos adquiridos
+- montos de compra asociados
+
+Debido a la estructura original de los datos, fue necesario realizar procesos de limpieza, transformación y expansión para construir una base analítica más útil para el análisis.
+
+---
+
+## ⚙️ Metodología
+
+El proyecto se desarrolló en las siguientes etapas:
+
+1. **Revisión inicial de datos**  
+   Exploración de la estructura de la información e identificación de elementos que requerían limpieza.
+
+2. **Limpieza y transformación**  
+   - corrección de nombres y edades  
+   - tratamiento de listas anidadas  
+   - estructuración de los datos en formato tabular
+
+3. **Preparación del dataset analítico**  
+   - separación de nombre y apellido  
+   - expansión de categorías y gastos por fila  
+   - organización de la información para facilitar agregaciones y cruces
+
+4. **Análisis exploratorio**  
+   - cálculo del total gastado por cliente  
+   - análisis de categorías con mayor y menor ingreso  
+   - frecuencia de compra por categoría  
+   - edad promedio de clientes por tipo de producto
+
+5. **Visualización e interpretación**  
+   Construcción de gráficos y conclusiones orientadas a negocio para comunicar los hallazgos principales.
+
+---
+
+## 🔦 Principales hallazgos
+
+- Las categorías con mayor ingreso fueron **electronics**, **clothes** y **home**.
+- Las categorías relacionadas con belleza y moda mostraron mayor afinidad con clientes jóvenes.
+- Categorías como **books**, **home** y **food** presentaron una edad promedio más alta.
+- Se identificaron oportunidades de segmentación comercial según edad y tipo de producto.
+
+---
+
+## ✅ Valor del proyecto
+
+Este proyecto demuestra habilidades aplicables a análisis de datos de negocio, entre ellas:
+
+- limpieza y transformación de datos
+- estructuración de información no lista para análisis
+- análisis exploratorio orientado a decisiones comerciales
+- segmentación básica de clientes
+- visualización e interpretación de hallazgos
+
+Aunque se trata de un caso ficticio, el flujo de trabajo reproduce tareas comunes en proyectos reales de análisis comercial y comportamiento de clientes.
 
 ---
 
 ## 🛠️ Herramientas utilizadas
 
-- **Python** (con `pandas`, `matplotlib`)
-- **Jupyter Notebook**
-- Análisis exploratorio de datos (EDA)
-- Limpieza y transformación de listas anidadas
-- Visualización con gráficos de barras
-- Segmentación de clientes por edad y gasto
+- Python
+- pandas
+- matplotlib
+- Jupyter Notebook
 
 ---
 
-## 📊 Contenido del análisis
+## 🧱 Estructura del repositorio
 
-- Limpieza de datos (nombres, edades, listas)
-- Conversión a DataFrame estructurado
-- Separación de nombre y apellido
-- Expansión de categorías y gastos por fila
-- Análisis por categoría:
-  - Total gastado
-  - Frecuencia de compra
-  - Edad promedio
-- Visualizaciones gráficas
-- Conclusión ejecutiva con recomendaciones de negocio
+- `analisis_clientes.ipynb` — notebook con el desarrollo completo del análisis
+- `README.md` — resumen del proyecto
 
 ---
 
-## 🧠 Conclusiones
+##  📤 Posibles mejoras
 
-El análisis mostró que:
+Este proyecto podría ampliarse con:
 
-- Las categorías más rentables son `electronics`, `clothes` y `home`
-- Los productos de belleza y moda son populares entre usuarios jóvenes
-- Las categorías `books`, `home` y `food` tienen un público de mayor edad
-- Se identificaron oportunidades de marketing por edad y tipo de producto
-
----
-
-## 📁 Archivos incluidos
-
-- `analisis_clientes.ipynb`: Notebook principal con el análisis completo
-- `clientes_limpios.csv` _(opcional)_: exportación de los datos procesados (si decides incluirla)
+- segmentación más robusta de clientes
+- análisis de ticket promedio por grupo
+- visualizaciones más ejecutivas
+- dashboard interactivo
+- recomendaciones comerciales priorizadas por impacto potencial
 
 ---
 
-## 🧑‍💻 Autor
+## 🤵 Autor
 
-**Jonathan García** – Proyecto de análisis de datos para portafolio  
-Desarrollado como parte del proceso de formación para científico de datos.
+**Jonathan García Hernández**  
+Portafolio de proyectos de análisis de datos:  
+[GitHub Portfolio](https://github.com/JonathanGH248/jonathangh248-portfolio)
 
